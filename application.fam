@@ -1,0 +1,10 @@
+App(
+    appid="ufbt_hello_world",
+    name="uFBT Hello World",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="ufbt_hello_world",
+    requires=[],
+    stack_size=2 * 1024,
+    fap_icon="icon.png",
+    fap_category="Gpio",
+)
